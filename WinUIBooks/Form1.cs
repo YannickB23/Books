@@ -40,6 +40,14 @@ namespace WinUIBooks
             this.grdBooks.DataSource = repo.GetAllBooks();
         }
 
+        //private void LoadBooksHideGridColumns()
+        //{
+        //    BookRepo repo = new BookRepo();
+        //    this.grdBooks.DataSource = null;
+        //    this.grdBooks.DataSource = repo.GetAllBooks();
+        //    this.grdBooks.Columns["id"].Visible = false;
+        //}
+
         private void PopulateCountries()
         {
             BookRepo repo = new BookRepo();
